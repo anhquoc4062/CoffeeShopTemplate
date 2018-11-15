@@ -1,0 +1,129 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff
+}
+.single-menu {
+    padding-top: 90px;
+    margin-top: -100px;
+}
+.generic-banner .height {
+    height: 200px;
+}
+
+.generic-banner .generic-banner-content h2 {
+    padding-top: 25%;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Varela Round', sans-serif;
+}
+.video-right {
+    background: none;
+}
+.video-left {
+    margin-top: -150px;
+}
+.video-left h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.video-left p {
+    margin-top: 14px;
+}
+.generic-banner {
+    background: url(../img/background.jpg);
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+#exTab1 .tab-content {
+    background-color: #ffffff;
+    padding : 5px 15px;
+    border: 1px solid #ebebeb;
+    position: absolute;
+    width: 442px;
+  }
+
+.tab-content.clearfix {}
+ul.nav.nav-pills {position: relative;width: 100%;vertical-align: middle;display: table;list-style: none;margin: 0;padding: 0;text-align: center;clear: both;z-index: 1;}
+
+.nav-pills li {
+    padding: 12px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #f6f6f6;
+    color: white;
+}
+
+.nav-pills li.active {
+    background: #be9c79;
+}
+.nav-pills li.hover {
+    background: #be9c79;
+}
+#exTab1 .nav-pills > li.active > a {
+    color: white;
+}
+#exTab1 .nav-pills > li.hover > a {
+    color: white;
+}
+
+#exTab1 .nav-pills > li > a {
+    font-size: 15px;
+    color: #656565;
+}
+
+.tab-pane {
+    background: white;
+}
+
+.tab-pane p {
+    margin: 22px 27px;
+    font-size: 13px;
+}
+
+.button-add-to-cart {background: #be9c79;width: 200px;height: 50px;line-height: 50px;margin: auto;margin-bottom: 19px;}
+
+.button-add-to-cart a {
+    color: #fff;
+}
+
+.button-add-to-cart:hover {
+    background: black;
+    cursor: pointer;
+}
+  
+.related-product h2 {
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 30px;
+}
+
+.related-product {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.content-related a {
+    color: #262626;
+    font-size: 24px;
+}
+
+span.price {
+    font-size: 16px;
+}
+
+.content-related h5 {
+    margin-bottom: 7px;
+}
+
+.content-related a:hover {
+    color: #be9c79;
+}
+
+.title-about h2 {
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+}
+  
+  
