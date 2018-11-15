@@ -83,7 +83,7 @@ ul.nav.nav-pills {position: relative;width: 100%;vertical-align: middle;display:
     font-size: 13px;
 }
 
-.button-add-to-cart {background: #be9c79;width: 200px;height: 50px;line-height: 50px;margin: auto;margin-bottom: 19px;}
+.button-add-to-cart {background: #be9c79;width: 200px;height: 50px;line-height: 50px;top: 45%;left: 10%;position: absolute;margin-bottom: 19px;display: none}
 
 .button-add-to-cart a {
     color: #fff;
@@ -126,4 +126,72 @@ span.price {
     font-family: 'Varela Round', sans-serif;
 }
   
-  
+.image-related {
+    position: relative;
+}
+
+.image-related:hover {
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.image-related:hover .button-add-to-cart {
+    display: block;
+    transition: 0.4s;
+}
+
+h1.mb-10 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 45px;
+}
+
+.content h5 {
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 100;
+}
+
+.offers-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.offers-area.col-md-3 {
+    width: 50%;
+}
+
+.offers-area {
+    margin: 80px;
+}
+
+.title h6 {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 24px;
+    margin: auto;
+    color: #777777;
+    width: 600px;
+}
+div#coffee {
+    margin-top: -20px;
+}
+img#title-separator-img, img#title-above-img {
+    width: unset;
+}
+.row.img-gallery img:hover {
+    opacity: 0.5;
+}
+.my-logo {
+    height: 600px;
+    background: url(../img/h1-bacground-img-2.jpg);
+    background-attachment: fixed;
+    background-position: 50% 49px;
+}
+.my-logo img {
+    margin: 0;
+    padding: 0;
+    margin-left: 42%;
+    margin-top: 12%;
+}
