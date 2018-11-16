@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     background-color: #fff
 }
 .single-menu {
@@ -194,4 +194,118 @@ img#title-separator-img, img#title-above-img {
     padding: 0;
     margin-left: 42%;
     margin-top: 12%;
+}
+
+ul.list-group-cate {
+    font-size: 16px;
+    margin-top: -14px;
+}
+
+.list-group-cate li {
+    padding: 8px;
+}
+
+.list-group-cate li a {
+    color: #656565;
+    font-weight: 100;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 17px;
+}
+
+.list-group-cate li a:hover {
+    color: #be9c79;
+}
+h3.mb-30 {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    color: #ccc;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+	border-top-left-radius: 20px;
+	padding-left: 18px;
+	border-bottom-left-radius: 20px;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+    color: #9c9c9c;
+}
+.single-element-widget {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.page-link {
+    color: #656565;
+    border: none;
+    background: none;
+    font-size: 18px;
+}
+
+.page-link:hover {
+    color: #be9c79;
+    background: none;
+    transition: 0.4s;
+}
+
+li.page-item {
+    border: none;
+}
+
+ul.pagination.justify-content-center {margin-top: 20px;}
+
+.list-group-product h5 {
+    margin-top: -78px;
+    font-size: 18px;
+    margin-left: 111px;
+}
+
+.list-group-product p {
+    margin-left: 111px;
+    color: #be9c79;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.list-group-product li {
+    margin-top: 32px;
+}
+
+div#imaginary_container {
+    margin-left: 30px;
+}
+
+ul.list-group-product {
+    margin-top: -16px;
+}
+
+.list-group-product del {
+    font-size: 13px;
+    color: gray;
+}
+
+.default-select .nice-select {
+    border: 1px solid #ccc;
+    width: 200px;
+    background: white;
+}
+
+div#default-select {
+    margin-bottom: 27px;
+    margin-left: auto;
+}
+
+.default-select .nice-select .list .option {
+    font-size: 14px;
 }
