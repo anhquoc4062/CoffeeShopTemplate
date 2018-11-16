@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <!-- CSS FILES -->
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/colors.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="ascensorBuilding">
+        <!-- CONTACT PAGE -->
+        <section class="floor">
+            <!-- PAGE TITLE -->
+            <div class="page-title">
+                <h2>Liên hệ</h2>
+            </div>
+            <!-- TRANG LIÊN HỆ -->
+            <div class="pagecontent">
+                <h2>Cách tìm chúng tôi</h2>
+                <p>CHÚNG TÔI ĐÃ CÓ MẶT TẠI HÀ NỘI, THÀNH PHỐ HỒ CHÍ MINH VÀ BIÊN HOÀ</p>
+                <!-- GOOGLE MAP -->
+                <div class="flex-video googlemap">
+                    <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=tr&amp;geocode=&amp;q=new+york&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=New+York&amp;t=m&amp;z=10&amp;ll=40.714353,-74.005973&amp;output=embed&amp;iwloc=near"></iframe>
+                </div>
+                <!-- GOOGLE MAP END -->
+                <p>Có hơn 100 cửa hàng trong nước và 50 cửa hàng nhiều quốc gia khác nhau như Mỹ, Úc, Hàn Quốc, Nhật Bản,...</p>
+                <hr/>
+                <h3>Thông tin liên hệ</h3>
+                <p>Mọi thắc mắc và đóng góp ý kiến vui lòng liên lạc theo địa chỉ, số điện thoại hoặc mail cho chúng tôi.</p>
+                <p><strong>Địa chỉ:</strong> 351B Lạc Long Quân, Phường 10, Q11, Thành phố Hồ Chí M</p>
+                <p><strong>Phone:</strong> 076633599822</p>
+                <p><strong>E-mail:</strong> <a href="mailto:youremail@yoursite.com">coffeshop4tp@gmail.com</a></p>
+                <hr/>
+                <!-- ĐẶT CHỖ -->
+                <h3>Đặt chỗ</h3>
+                <form id="contactForm" action="processform.php" method="post">
+                    <div class="contact-left">
+                        <label>Họ và tên</label>
+                        <input type="text" name="senderName" id="senderName" required="required" />
+                        <label>E-Mail</label>
+                        <input type="email" name="senderEmail" id="senderEmail" required="required" />
+                        <label>Số Điện Thoại</label>
+                        <input type="text" name="senderPhone" id="senderPhone" />
+                        <label>Ngày Đặt</label>
+                        <input type="date" name="senderDate" id="senderDate" />
+                    </div>
+                    <div class="contact-right">
+                        <label>Số Lượng Người</label>
+                        <input type="text" name="senderNumber" id="senderNumber" />
+                        <label>Ghi chú</label>
+                        <textarea name="message" id="message"></textarea>
+                        <input type="submit" id="sendMessage" name="sendMessage" class="link-button" value="Gửi" />
+                    </div>
+                    <div class="clear"></div>
+                </form>
+            </div>
+        </section>
+    </div>
+    <!-- JS FILES -->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ascensor.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
