@@ -309,3 +309,323 @@ div#default-select {
 .default-select .nice-select .list .option {
     font-size: 14px;
 }
+
+.cart-icon span.amount-cart {
+    color: white;
+    position: relative;
+    left: 26px;
+    bottom: 7px;
+    font-size: 10px;
+}
+
+li.cart-icon {
+    color: #fff;
+}
+
+
+.cart-icon ul .item-info {
+    position: relative;
+    bottom: 66px;
+    left: 100px;
+}
+
+.cart-icon ul {
+    width: 280px;
+    background: #413332;
+    color: #fff;
+    left: -250px;
+}
+
+.cart-icon ul li a {
+    color: #fff;
+}
+
+.item-info h5 {
+    color: #fff;
+}
+
+.cart-icon ul li {
+    height: 100px;
+}
+
+.cart-icon ul li a:hover {
+    color: #fff;
+}
+
+.cart-icon ul li.item-total {
+    padding: 10px;
+    height: 40px;
+}
+
+span.total-amount {
+    padding-left: 120px;
+}
+
+span.total {
+    float: left;
+}
+
+span.total-price {
+    float: right;
+}
+
+.action-button a {
+    width: 119px;
+    float: left;
+    background: #be9c79;
+    margin: 4px;
+    border-radius: 0px;
+}
+
+.cart-icon ul li.action-button {
+    height: 40px;
+}
+.cart-icon ul li.action-button a:hover {
+    color: #262626;
+    background: #262626;
+}
+.cart-icon ul li.action-button:hover a {
+    color: unset;
+}
+
+ul.nav-menu.sf-js-enabled.sf-arrows {
+    font-size: 15px;
+}
+
+.nav-menu a {
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+li.cart-icon {
+    padding-top: 10px;
+}
+
+table.cart-item {
+    width: 100%;
+    margin-top: 100px;
+}
+
+table.cart-item  thead {
+    font-size: 17px;
+}
+
+table.cart-item th {
+    padding: 10px 0px;
+}
+
+table.cart-item tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table.cart-item th,td {
+    padding-left: 10px;
+}
+
+.coupon input.form-control {
+    width: 168px;
+    font-size: 12px;
+    border-radius: 0px;
+    float: left;
+    padding: 10px;
+}
+
+.coupon .btn.btn-default {
+    background: #be9c79;
+    font-size: 12px;
+    padding: 10px 26px;
+    font-weight: 400;
+    position: relative;
+    border-radius: unset;
+    color: #fff;
+    left: 15px;
+}
+
+.coupon .btn.btn-default:hover {
+    background: #262626;
+}
+
+.coupon {
+    padding: 20px;
+    float: left;
+}
+
+.update-cart.btn.btn-default {
+    background: #be9c79;
+    border-radius: unset;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px;
+    top: 20px;
+    right: 292px;
+}
+
+.update-cart.btn.btn-default:hover {
+    background: #262626;
+}
+
+table.cart-total {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table.cart-total td {
+    width: 80%;
+    text-align: left;
+}
+
+table.cart-total tr {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-total-wrapper {
+    margin-top: 25px;
+}
+
+.table.cart-total th,td {
+    padding: 20px;
+}
+
+.cart-total-wrapper h3 {
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.form-control:focus {
+    border-color: #be9c79;
+    box-shadow: unset;
+}
+
+p.item-price {
+    font-size: 17px;
+}
+
+.checkout-action .btn.btn-default {
+    border-radius: unset;
+    background: #be9c79;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 40px 0px;
+    font-size: 12px;
+}
+
+.checkout-action .btn.btn-default:hover {
+    background: #262626;
+}
+
+.form-field {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 40px 0px;
+}
+
+.cart-checkout table.cart-item {
+    margin-top: 20px;
+}
+
+.cart-checkout table.cart-item td {
+    padding: 20px 0px;
+}
+
+.cart-checkout table.cart-item th {
+    padding: 20px 0px;
+}
+
+table.cart-item strong {
+    font-weight: 700;
+}
+
+.form-field h5 {
+    font-size: 35px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.form-field .cart-checkout {
+    margin-top: 50px;
+}
+.form-field.checkout-button.btn.btn-default {
+    color: #fff;
+    background: #be9c79;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 17px 32px;
+    right: 471px;
+    top: -35px;
+    position: relative;
+}
+
+.form-field.checkout-button.btn.btn-default:hover {
+    background: #262626;
+}
+
+.container.checkout-area {
+    padding-top: 80px;
+}
+
+.contact-icon {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-main-wrapper h3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+    margin-top: 70px;
+}
+
+.contact-main-wrapper p {
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+ul.contact-ul {list-style: none;font-size: 17px;}
+
+.contact-ul li:before {
+    content: "â€¢ ";
+    color: #be9c79;
+    padding-right: 10px;
+}
+
+.contact-ul li {
+    padding-top: 10px;
+}
+
+.contact-icon a {
+    padding: 10px;
+    font-size: 17px;
+    color: #b3b3b3;
+}
+
+.contact-icon a:hover {
+    color: #be9c79;
+}
+
+.contact-form .btn.btn-default {
+    position: relative;
+    border-radius: unset;
+    right: 180px;
+    padding: 15px 31px;
+    color: #fff;
+    background: #be9c79;
+}
+
+form.contact-form .form-field {margin: 33px auto;}
+
+form.contact-form {
+    margin: 70px 0px;
+}
+
+.contact-area {
+    margin-top: 20px;
+}
+
+.contact-form .btn.btn-default:hover {
+    background: #262626;
+}
+
+.contact-ul li:before {
+    content: "•";
+}
